@@ -86,7 +86,7 @@ B2: Chỉnh đường dẫn $album sao cho lùi về đến var/www/html (Nơi t
 
 B3: Truy cập đường dẫn /shell.php
 
-![image.png](/images/image%20120.png)
+![image.png](/images/imagee.png)
 
 # Lab path traversal (1→6)
 
@@ -96,61 +96,61 @@ B3: Truy cập đường dẫn /shell.php
 
 Đọc code:
 
-![image.png](/images/image%201.png)
+![image.png](/images/image%20120.png)
 
 - Có thể upload avatar lên server /var/www/html/upload/<username>/avatar.jpg
 
-![image.png](/images/image%202.png)
+![image.png](/images/image%20121.png)
 
-![image.png](/images/image%203.png)
+![image.png](/images/image%20123.png)
 
 - Include unstrusted data → Lỗi path traversal thao túng $game để include file bất kỳ
 
 - Hàm include thực hiện 2 việc là read và execute
 
-![image.png](/images/image%204.png)
+![image.png](/images/image%20124.png)
 
 B1: Upload ảnh nhưng có nội dung là code php, file php nằm ở đường dẫn
 
 → /var/www/html/upload/tungtung/avatar.jpg
 
-![image.png](/images/image%205.png)
+![image.png](/images/image%20125.png)
 
 B2: include './views/' . $game;
 
-![image.png](/images/image%206.png)
+![image.png](/images/image%20126.png)
 
 - Sửa đường dẫn file 
 
-![image.png](/images/image%207.png)
+![image.png](/images/image%20127.png)
 
 Thành
 
-![image.png](/images/image%208.png)
+![image.png](/images/image%20128.png)
 
-![image.png](/images/image%209.png)
+![image.png](/images/image%20129.png)
 
 # level5:
 
-![image.png](/images/image%2010.png)
+![image.png](/images/image%20130.png)
 
 Đọc code ta biết được:
 
-![image.png](/images/image%2011.png)
+![image.png](/images/image%20131.png)
 
-![image.png](/images/image%2012.png)
+![image.png](/images/image%20132.png)
 
-![image.png](/images/image%2013.png)
+![image.png](/images/image%20133.png)
 
 /var/log/apache2/access.log
 
-![image.png](/images/image%2014.png)
+![image.png](/images/image%20134.png)
 
-![image.png](/images/image%2015.png)
+![image.png](/images/image%20135.png)
 
-![image.png](/images/image%2016.png)
+![image.png](/images/image%20136.png)
 
-![image.png](/images/image%2017.png)
+![image.png](/images/image%20137.png)
 
 # level6(Khai thác lỗ hổng Zip Slip):
 
@@ -168,6 +168,6 @@ python2 [evilarc.py](http://evilarc.py/) -d 2 -o unix shell.php
 - Upload gói zip này lên server, và theo lý thuyết file shell.php sẽ được giải nén ra
 ở /var/www/html/shell.php
 
-![image.png](/images/image%2018.png)
+![image.png](/images/image%20138.png)
 
-![image.png](/images/image%2019.png)
+![image.png](/images/image%20139.png)
