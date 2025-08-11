@@ -1,1 +1,1 @@
-# Web-pentest-101-cyberjutsu
+# Web-pentest-101
