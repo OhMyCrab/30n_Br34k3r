@@ -20,7 +20,7 @@ Read - readfile()
 
 Write - file_put_content()
 
-RCE - ???
+RCE
 
 # level1:
 
