@@ -1,5 +1,7 @@
 - Bản chất: thay đổi thuộc tính (attribute) và lớp (class) của đối tượng (object)
 
+- "Magic method" tự động được gọi khi 1 số action được thực hiện trên đối tượng (__toString, __destruct,__wakeup)
+
 - Serialize
 
 <img width="1562" height="816" alt="image" src="https://github.com/user-attachments/assets/c41e5b88-f4ef-4f14-90c7-1a3341f8428f" />
