@@ -1,8 +1,10 @@
-- serialize
+- Bản chất: thay đổi thuộc tính (attribute) và lớp (class) của đối tượng (object)
+
+- Serialize
 
 <img width="1562" height="816" alt="image" src="https://github.com/user-attachments/assets/c41e5b88-f4ef-4f14-90c7-1a3341f8428f" />
 
-- unserialize
+- Unserialize
 
 <img width="1626" height="794" alt="image" src="https://github.com/user-attachments/assets/b6a571f2-790a-4dc5-b49b-62a7e27944b7" />
 
@@ -14,7 +16,7 @@
 
 <img width="1694" height="616" alt="image" src="https://github.com/user-attachments/assets/8c6f6487-58fe-4620-895f-5b4126f4df63" />
 
-- Tạo payload PHP Insecure Deserialization và gửi vào phần thực thi unserialization
+- Tạo payload PHP Insecure Deserialization và tấn công
 
 <img width="1883" height="737" alt="image" src="https://github.com/user-attachments/assets/05c0c4bf-eb07-462c-a9c9-b7692bd68762" />
 
