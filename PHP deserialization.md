@@ -1,3 +1,5 @@
+<img width="1705" height="668" alt="image" src="https://github.com/user-attachments/assets/d4f623e1-cf7b-414f-837f-e873913a2de0" />
+
 - Bản chất: thay đổi thuộc tính (attribute) và lớp (class) của đối tượng (object)
 
 - "Magic method" tự động được gọi khi 1 số action được thực hiện trên đối tượng (__toString, __destruct,__wakeup)
@@ -24,4 +26,16 @@
 
 <img width="1809" height="424" alt="image" src="https://github.com/user-attachments/assets/ab11cd49-407e-46b0-9d12-ed3de3b97df8" />
 
-<img width="1705" height="668" alt="image" src="https://github.com/user-attachments/assets/d4f623e1-cf7b-414f-837f-e873913a2de0" />
+- Ví dụ tạo serializated data
+
+<img width="520" height="454" alt="image" src="https://github.com/user-attachments/assets/97157a3c-3b68-4e35-9d0a-8acd51442900" />
+
+sau khi chạy sẽ in ra serializated data: `O:10:"Calculator":1:{s:10:"expression";s:32:"echo file_get_contents('/flag');";}`
+
+- Các kiểu tấn công php deserialization
+
+thay đổi giá trị thuộc tính và lớp
+
+hoán đổi đối tượng sang lớp khác
+
+build payload ngược call graph
