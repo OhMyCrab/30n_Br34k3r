@@ -38,4 +38,3 @@ thay đổi giá trị thuộc tính và lớp
 
 hoán đổi đối tượng sang lớp khác
 
-build payload ngược call graph
